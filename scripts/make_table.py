@@ -16,7 +16,7 @@ import sys
 
 # default
 LEVEL = list(range(1, 6))
-TABLE_HEADER = [ "순번" ,"추천 문제", "문제 이름", "솔브드 티어", "알고리즘 태그" ]
+TABLE_HEADER = [ "순번" ,"추천 문제", "문제 이름", "솔브드 티어", "알고리즘 태그", "풀이 링크" ]
 
 def SolvedACTier(tier):
     url = f"https://static.solved.ac/tier_small/{tier}.svg"
@@ -44,7 +44,7 @@ for level in LEVEL:
     recommendProblems = [  ]
     otherProblems     = [  ]
     for data in datas:
-        recommend, title, link, tier, tags = data.strip().split('$')
+        recommend, title, link, tier, tags, solution = data.strip().split('$')
         assert title[0]  == '"'
         assert title[-1] == '"'
         assert link      != ''
@@ -74,7 +74,7 @@ for level in LEVEL:
             tags = tags.strip().split(',')
             tags = ",".join([ tag.strip() for tag in tags ])
 
-        resultLine = f"|{recommend}|[{title}]({link})|{tier}|{tags}|"
+        resultLine = f"|{recommend}|[{title}]({link})|{tier}|{tags}|{solution}|"
         if recommendB:
             recommendProblems.append(resultLine)
         else:
