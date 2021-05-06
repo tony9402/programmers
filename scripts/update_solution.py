@@ -17,7 +17,7 @@ for level in range(1, 6): # 1 ~ 5
         ID = info.split('$')[2]
 
         if os.path.exists(f'./solution/{folder}/{ID}/'):
-            newData.append(f"{info}../solution/{folder}/{ID}")
+            newData.append(f"{info}[바로가기](../solution/{folder}/{ID})")
         else:
             newData.append(info)
 
