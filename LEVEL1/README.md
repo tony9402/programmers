@@ -4,7 +4,7 @@
 
 | 순번|추천 문제|문제 이름|솔브드 티어|알고리즘 태그|풀이 링크 |
 | :--:|:--:|:--:|:--:|:--:|:--:|
-| 00 ||[포켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
+| 00 ||[폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
 | 01 ||[완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
 | 02 ||[K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
 | 03 ||[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
