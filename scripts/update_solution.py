@@ -21,7 +21,7 @@ for level in range(1, 6): # 1 ~ 5
         else:
             newData.append(info)
 
-    with open(f"./{folder}/tmp_list.md", 'w') as f:
+    with open(f"./{folder}/list.md", 'w') as f:
         newData = [ f"{line}\n" for line in newData ]
         f.writelines(newData)
         f.close()
