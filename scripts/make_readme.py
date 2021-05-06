@@ -54,7 +54,7 @@ with open('./README.md', 'w') as f:
     
     # table
     f.writelines(tables)
-    f.write(f"\n\n**실행한 날짜(log) : {timeformat.strftime('%Y/%m/%d %H:%M:%S %Z')}**")
+    f.write(f"\n\n**실행한 날짜(log) : {timeformat.strftime('%Y/%m/%d %H:%M:%S %Z')}**\n\n")
 
     f.write('\n')
     f.writelines(footers)
