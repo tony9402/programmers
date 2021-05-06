@@ -1,6 +1,6 @@
 [recommend]$"[title]"$[link(url)]$[tier(SolvedAC)]$[algorithm tags]$[Solution]
 $"폰켓몬"$1845$$[]$
-$"완주하지 못한 선수"$42576$$[]$../solution/LEVEL1/42576
+$"완주하지 못한 선수"$42576$$[]$../solution/LEVEL1/42576[바로가기](../solution/LEVEL1/42576)
 $"K번째수"$42748$$[]$
 $"체육복"$42862$$[]$
 $"[카카오 인턴] 키패드 누르기"$67256$$[]$
