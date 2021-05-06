@@ -20,7 +20,7 @@ jobs:
     - name: Config Github
       run: |
         git config --local user.email "${{ secrets.user_email }}"
-        git config --local user.name "${{ secretes.user_name }}"
+        git config --local user.name "${{ secrets.user_name }}"
         git add .
         git commit -m "Auto Update Table (on PUSH event)"
     - name: Push
