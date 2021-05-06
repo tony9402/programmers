@@ -16,6 +16,7 @@ jobs:
         architecture: 'x64'
     - name: Run make_table.py
       run: |
+        python scripts/update_solution.py
         python scripts/make_table.py
         python scripts/make_readme.py
     - name: Config Github
