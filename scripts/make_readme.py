@@ -49,7 +49,8 @@ import pytz
 timeformat = datetime.datetime.now(pytz.timezone('Asia/Seoul'))
 
 with open('./README.md', 'w') as f:
-    f.writelines(headers) f.write('\n')
+    f.writelines(headers)
+    f.write('\n')
     
     # table
     f.writelines(tables)
