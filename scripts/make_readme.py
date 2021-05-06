@@ -43,12 +43,17 @@ tables = [ f"{line}\n" for line in tables ]
 
 # README.md
 
+import datetime
+import pytz
+
+timeformat = datetime.datetime.now(pytz.timezone('Asia/Seoul'))
+
 with open('./README.md', 'w') as f:
-    f.writelines(headers)
-    f.write('\n')
+    f.writelines(headers) f.write('\n')
     
     # table
     f.writelines(tables)
+    f.write(f"\n\n**실행한 날짜(log) : {timeformat.strftime('%Y/%m/%d %H:%M:%S %Z')}**")
 
     f.write('\n')
     f.writelines(footers)
