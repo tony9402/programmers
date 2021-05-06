@@ -17,6 +17,7 @@ jobs:
     - name: Run make_table.py
       run: |
         python scripts/make_table.py
+        python scripts/make_readme.py
     - name: Config Github
       run: |
         git config --local user.email "${{ secrets.user_email }}"
