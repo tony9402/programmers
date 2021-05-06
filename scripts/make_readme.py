@@ -8,6 +8,7 @@ import sys
 # footer.md
 
 headers = list()
+updateLog = list()
 footers = list()
 tables  = list()
 with open('./markdown/header.md', 'r') as f:
@@ -16,6 +17,10 @@ with open('./markdown/header.md', 'r') as f:
 
 with open('./markdown/footer.md', 'r') as f:
     footers = f.readlines()
+    f.close()
+
+with open('./markdown/updatelog.md', 'r') as f:
+    updateLog = f.readlines()
     f.close()
 
 with open('./markdown/list.md', 'r') as f:
@@ -54,6 +59,11 @@ with open('./README.md', 'w') as f:
     
     # table
     f.writelines(tables)
+
+    # updateLog
+    f.write("\n\n")
+    f.writelines(updateLog)
+
     f.write(f"\n\n**실행한 날짜(log) : {timeformat.strftime('%Y/%m/%d %H:%M:%S %Z')}**\n\n")
 
     f.write('\n')
