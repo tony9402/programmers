@@ -41,11 +41,11 @@
 | 34 ||[자릿수 더하기](https://programmers.co.kr/learn/courses/30/lessons/12931)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
 | 35 ||[자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
 | 36 ||[정수 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12933)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 37 ||[정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
+| 37 ||[정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/5.svg"/>|||
 | 38 ||[제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 39 ||[짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 40 ||[최대공약수와 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
-| 41 ||[콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
+| 39 ||[짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg"/>|||
+| 40 ||[최대공약수와 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/>|||
+| 41 ||[콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/>|||
 | 42 ||[평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
 | 43 ||[하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
 | 44 ||[핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)|<img height="25px" width="25px" src="https://static.solved.ac/tier_small/0.svg"/>|||
